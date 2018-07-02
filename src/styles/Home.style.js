@@ -20,6 +20,22 @@ cursor:pointer;
   }
 `
 
+export const PanelInfoWrapper = styled.div`
+position:absolute;
+bottom:0;
+height:50%;
+min-width:300px;
+border-radius: 8px;
+background-color:white;
+`
+
+export const PanelInfoText = styled.p`
+font-family: 'Roboto Mono', monospace;
+font-size: ${props => props.size};
+padding-left:2.5%;
+padding-right:2.5%;
+`
+
 export const IntroWrapper = styled.div`
 min-width:225px;
 height:100%;

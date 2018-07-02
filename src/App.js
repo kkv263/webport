@@ -6,6 +6,7 @@ import Jverbs from './components/Jverbs';
 import Portfolio from './components/Portfolio';
 import Smartflash from './components/Smartflash';
 import Caturday from './components/Caturday';
+import PanelInfo from './components/PanelInfo';
 
 const PanelWrapper = styled.div`
 position:relative;
@@ -22,7 +23,10 @@ class App extends Component {
       <PanelWrapper>
         <Home/>
         <PanelContent color={'#45B29D'}>
-          <Jverbs/>
+          <Jverbs/> 
+          <PanelInfo demo="kkv263.github.io/jpnverbs/ " source="github.com/kkv263/jpnverbs/"
+          desc="Compiled an online, searchable database that conjugates 100,000 Japanese verbs."
+          notes="No Mobile Support" title="JpnVerbs"/>
         </PanelContent>
         <PanelContent color={'#222823'}>
           <Portfolio/>
