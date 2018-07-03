@@ -1,0 +1,1 @@
+export const CHANGE_PANEL = 'CHANGE_PANEL';
