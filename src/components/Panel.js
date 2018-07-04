@@ -20,6 +20,13 @@ height:90vh;
 margin-top:2.5%;
 padding-left:1%;
 padding-right:1%;
+@media all and (max-width: 768px) {
+  flex-direction: column;
+  height:auto;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
 `
 
 class Panel extends Component {
@@ -70,7 +77,7 @@ class Panel extends Component {
         case 4:
           demo = "https://kkv263.github.io/smartflash/"
           source="https://github.com/kkv263/smartflash"
-          desc= "Programmed an Alexa skill to depict an audible flashcards-style studying feature focusing on foreign languages. This is the accompanying web application created with React."
+          desc= "Programmed an audible flashcards-style studying Alexa skill for foreign languages, paired with web app."
           notes="No Mobile Support, No Functionality"
           tech= "AWS, NodeJS, React, MongoDB"
           title="Smartflash (HACKTX'17)" 
@@ -79,7 +86,7 @@ class Panel extends Component {
           demo = "https://kkv263.github.io/caturday/"
           source="https://github.com/kkv263/caturday"
           desc="Created website design in React featuring cats."
-          notes="No Mobile Support"
+          notes="N/A"
           tech= "React"
           title="Caturday" 
         break; 

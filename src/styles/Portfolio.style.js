@@ -4,10 +4,14 @@ export const TitleBox = styled.div`
 border:8px solid #FFF9A5;
 width:200px;
 height:50px;
-margin-top:175px;
+margin-top:50%;
 text-align:center;
 position:relative;
-margin-left:42px;
+margin-left:15%;
+@media all and (max-width: 768px) {
+    margin-top:25%;
+    margin-left:20%;
+  }
 `
 
 export const TitleText = styled.div`
@@ -41,4 +45,7 @@ top: ${props => props.top};
 left:${props => props.left};
 height: ${props => props.h};
 width: ${props => props.w};
+@media all and (max-width: 768px) {
+    display:none;
+  }
 `
