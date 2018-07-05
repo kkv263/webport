@@ -62,6 +62,7 @@ animation: ${fadeIn} .5s ease;
 opacity: ${props => props.fade ? 0 : 1};
 @media all and (max-width: 768px) {
   height:100%;
+  width:100%;
   }
 `
 
@@ -110,7 +111,7 @@ width:125px;
 padding-top: 75px;
 margin-left:50px;
   @media all and (max-width: 768px) {
-    padding-top: 8%;
+    padding-top: 7%;
     margin-left:auto;
     margin-right:auto;
   }

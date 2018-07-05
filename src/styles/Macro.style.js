@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export const Logo = styled.img`
-width: 50%;
-margin-top: 50%;
-margin-left: 25%;
+export const MacLogo = styled.img`
+width: 70%;
+margin-top: 40%;
+margin-left: 15%;
 
 
   @media all and (max-width: 768px) {

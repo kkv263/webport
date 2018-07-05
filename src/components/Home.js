@@ -19,7 +19,8 @@ class Home extends Component {
               <a href="https://www.dropbox.com/s/w4ir1hcdd8jzjhj/kevin_vu_resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
               <IntroIcon src={require('../assets/link-symbol.png')}/></a>
 
-              <IntroIcon src={require('../assets/envelope.png')}/>
+              <a href="mailto:kkv263@utexas.edu" target="_top">
+              <IntroIcon src={require('../assets/envelope.png')}/></a>
             </IconWrapper>
           </IntroContentWrapper>
         </IntroWrapper>

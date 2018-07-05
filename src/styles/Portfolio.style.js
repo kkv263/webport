@@ -3,14 +3,20 @@ import styled from 'styled-components';
 export const TitleBox = styled.div`
 border:8px solid #FFF9A5;
 width:200px;
-height:50px;
+height: 60px;
 margin-top:50%;
 text-align:center;
 position:relative;
 margin-left:15%;
 @media all and (max-width: 768px) {
+    width:45%;
+    position: absolute;  
+    left: 0;  
+    right: 0;  
+    top:0;
+    bottom:0;
+    margin:auto;
     margin-top:25%;
-    margin-left:20%;
   }
 `
 

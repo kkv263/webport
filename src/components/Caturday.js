@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import { TitleText, CatPic } from '../styles/Caturday.style';
+import { CatLogo } from '../styles/Caturday.style';
 
 class Caturday extends Component {
   render() {
     return (
       <div>
-        <TitleText>Caturday</TitleText>
-        <CatPic src={require('../assets/cat.png')}/>
+        <CatLogo src={require('../assets/cat.png')}></CatLogo>
       </div>
     )
   }

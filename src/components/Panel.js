@@ -7,6 +7,7 @@ import Jverbs from './Jverbs';
 import Portfolio from './Portfolio';
 import Smartflash from './Smartflash';
 import Caturday from './Caturday';
+import Macro from './Macro';
 import PanelInfo from './PanelInfo';
 
 import { connect } from 'react-redux';
@@ -111,13 +112,14 @@ class Panel extends Component {
             {this.props.panel === 2 ? panelInfo : null}
           </PanelContent>
           <PanelContent color={'#FFBF46'} onClick={() => this.handlePanel(3)}>
+            <Macro />
             {this.props.panel === 3 ? panelInfo : null}
           </PanelContent>
           <PanelContent color={'linear-gradient(to bottom, #43739B 0%, #21282E 100%)'} onClick={() => this.handlePanel(4)}>
             <Smartflash />
             {this.props.panel === 4 ? panelInfo : null}
           </PanelContent>
-          <PanelContent color={'linear-gradient(to bottom, #f1f1f1 0%, #eeeeee 100%)'} onClick={() => this.handlePanel(5)}>
+          <PanelContent  onClick={() => this.handlePanel(5)}>
             <Caturday />
             {this.props.panel === 5 ? panelInfo : null}
           </PanelContent>
