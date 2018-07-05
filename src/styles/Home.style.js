@@ -47,6 +47,8 @@ cursor:pointer;
   @media all and (max-width: 768px) {
   height:330px;
   margin-top: 5%;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 `
 
