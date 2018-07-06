@@ -20,7 +20,6 @@ display:flex;
 height:90vh;
 margin-top:2.5%;
 padding-left:1%;
-padding-right:1%;
 @media all and (max-width: 768px) {
   flex-direction: column;
   height:auto;
@@ -111,7 +110,7 @@ class Panel extends Component {
             <Portfolio/>
             {this.props.panel === 2 ? panelInfo : null}
           </PanelContent>
-          <PanelContent color={'#FFBF46'} onClick={() => this.handlePanel(3)}>
+          <PanelContent color={'#1fb5fc'} onClick={() => this.handlePanel(3)}>
             <Macro />
             {this.props.panel === 3 ? panelInfo : null}
           </PanelContent>

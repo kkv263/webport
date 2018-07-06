@@ -5,7 +5,7 @@ class Macro extends Component {
   render() {
     return (
       <div>
-        <MacLogo src={require("../assets/macro.png")} />
+        <MacLogo src={require("../assets/macro2.png")} />
       </div>
     )
   }
