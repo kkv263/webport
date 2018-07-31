@@ -1,7 +1,7 @@
 import { CHANGE_PANEL } from '../actions/types';
 
 const initialState = {
-  panel: 0
+  panel: -1
 };
 
 export default function(state = initialState, action) {
