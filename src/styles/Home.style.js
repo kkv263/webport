@@ -50,6 +50,7 @@ cursor:pointer;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
+
 `
 
 export const PanelInfoWrapper = styled.div`

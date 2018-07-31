@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CatLogo = styled.img`
 width: 65%;
 margin-top: 45%;
-margin-left: 25%;
+margin-left: 20%;
 
   @media all and (max-width: 768px) {
     position: absolute;  

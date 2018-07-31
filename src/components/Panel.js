@@ -20,6 +20,7 @@ display:flex;
 height:90vh;
 margin-top:2.5%;
 padding-left:1%;
+
 @media all and (max-width: 768px) {
   flex-direction: column;
   height:auto;
@@ -122,6 +123,7 @@ class Panel extends Component {
             <Caturday />
             {this.props.panel === 5 ? panelInfo : null}
           </PanelContent>
+          <div style={{visibility:'hidden'}}>lol</div>
         </PanelWrapper>
     )
   }
