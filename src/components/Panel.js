@@ -12,7 +12,6 @@ import PanelInfo from './PanelInfo';
 
 import { connect } from 'react-redux';
 import { changePanel } from '../actions/changePanel';
-import Employment from './Employment';
 
 
 const PanelWrapper = styled.div`
@@ -104,9 +103,6 @@ class Panel extends Component {
     return (
       <PanelWrapper>
           <Home/>
-          <PanelContent>
-            <Employment></Employment>
-          </PanelContent>
           <PanelContent onClick={() => this.handlePanel(1)} color={'#45B29D'}>
             <Jverbs /> 
             {this.props.panel === 1 ? panelInfo : null}
